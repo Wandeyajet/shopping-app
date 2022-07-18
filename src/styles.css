@@ -1,0 +1,21 @@
+* {
+margin: unset;
+padding:unset;
+}
+body{
+background-color: aqua;
+}
+nav{
+    background: grey;
+    height: 3rem;
+    line-height: 3rem;
+    color:white;
+    padding-left: 2rem;
+margin-bottom: 1rem;
+}
+.container {
+    padding: 1rem;
+}
+#itemForm{
+    
+}
