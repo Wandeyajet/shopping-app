@@ -5,8 +5,8 @@ db.version(1).stores ({items:  '++id, name, price,isPurchase'})
  const itemsDiv = document.getElementById ( 'itemsDiv')
  const totalPriceDiv = document.getElementById ('totalPriceDiv' )
 
-const populateItemsD= async () => {
-const allItems = await db. items.reverse(). toArray()
+const populateItemsDiv = async () => {
+const allItems = await db. items.reverse().toArray()
 
 itemsDiv.innerHTML = allItems.map ( item => `
 <div class="item ${item.isPurchased && 'purchased'}">
