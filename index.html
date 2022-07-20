@@ -7,6 +7,7 @@
 <meta name="description" content="A shopping app with HTML,CSS and javascript">
 <link rel="stylesheet" href="src/styles.css">
 <link rel="icon" href="assets/icon-192.png">
+<script src="./dexie.min.js"></script>
 <title> Installable Shopping  App</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
             My list
         </p>
     </nav>
+
 <div class="container">
    <form id="itemForm">
 
@@ -32,26 +34,12 @@
         Price
      <input type="text" id="priceInput"value=0> 
 </label>
-<button type="Submit" id="addItemButton">Add item</button>
+<button type="Submit" id="addItemButton">Add item </button>
     </form>
 </div>
-<div id="itemsDiv">
-    <div class="item"...>
-        <div class="purchased">
-            
-        </div>
-        <label>
-        <input type="checkbox" class="checkbox" checked>
-        </label>
-        <div class="itemInfo">
-            <p>Fruit Juice</p>
-            <p>$ 5 x 3</p>
-        </div>
 
-        <button class="deleteButton">X</button>
-    </div>
-    <div id="totalPriceDiv"> Total Price:</div>
-</div>
+<div id="itemsDiv"></div>
+    <div id="totalPriceDiv"></div>
 
 
 <script src="./index.js">

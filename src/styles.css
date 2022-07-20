@@ -6,7 +6,7 @@ body{
 background-color: rgb(211, 219, 219);
 }
 nav{
-    background: rgb(155, 28, 5);
+    background: rgb(70, 38, 252);
     height: 3rem;
     line-height: 3rem;
     color:white;
@@ -39,24 +39,24 @@ padding:0.5rem;
     margin-top: 3rem;
 margin-bottom: 2rem;
 }
-items{
+.item {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background: #eaeaea;
-    margin-bottom:0.5rem;
+    margin-bottom: 0.5rem;
 }
-.checkbox{
-    height:1oo%;
-    width:2.5rem;
+.checkbox {
+    height: 100%; 
+    width: 2.5rem;
 }
-.itemInfo{
+.itemInfo {
     text-align: center;
 }
-deleteButton{
+.deleteButton{
     margin: 0 0 0 auto;
     border: unset;
-    background: rgb(240, 43, 43);
-    color: #ffff;
+    background: rgb(232, 13, 13);
+    color: rgb(254, 254, 254);
     font-size: 0.8rem;
     width: 2.5rem;
     height: 100%;
@@ -65,9 +65,10 @@ deleteButton{
     margin-bottom: 3px;
 }
 .purchased{
-    background:#170203;
+    background:#e7d23b;
 color: #ffff;
 }
-purchased p {
+.purchased p {
     text-decoration: line-through;
 }
+
