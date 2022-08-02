@@ -3,7 +3,7 @@ margin: unset;
 padding:unset;
 }
 body{
-background-color: rgb(211, 219, 219);
+    background: linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%); 
 }
 nav{
     background: rgb(70, 38, 252);
@@ -23,7 +23,8 @@ margin-bottom: 1rem;
 #itemForm input{
     height: 2rem;
     text-align: center;
-    border: 1px solid #bfbfbf;
+    border: 1px solid #efdcdc;
+  
 }
 #quantityInput, #priceInput{
     width:3rem;
@@ -35,6 +36,7 @@ margin-bottom: 1rem;
     color: #ffff;
 padding:0.5rem;
 }
+
 #itemsDiv{
     margin-top: 3rem;
 margin-bottom: 2rem;
@@ -65,7 +67,7 @@ margin-bottom: 2rem;
     margin-bottom: 3px;
 }
 .purchased{
-    background:#e7d23b;
+    background:rgb(244, 195, 203);
 color: #ffff;
 }
 .purchased p {
