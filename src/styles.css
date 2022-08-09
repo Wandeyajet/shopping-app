@@ -16,6 +16,11 @@ margin-bottom: 1rem;
 .container {
     padding: 1rem;
 }
+#shopping-img{
+    width: 40%;
+    float: right;
+    height: 100%;
+}
 #itemForm label{
 display: block;
 margin-bottom: 1rem;
