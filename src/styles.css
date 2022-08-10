@@ -3,7 +3,9 @@ margin: unset;
 padding:unset;
 }
 body{
-    background: linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%); 
+background: linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%); 
+background-position: cover;
+font-family:'Anek Bangla', sans-serif; 
 }
 nav{
     background: rgb(70, 38, 252);
@@ -12,6 +14,13 @@ nav{
     color:white;
     padding-left: 2rem;
 margin-bottom: 1rem;
+font-size: 27px;
+font-family:'Alumni Sans Inline One', cursive;
+}
+#boy-icon{ 
+    margin-top: 3px;
+    margin-bottom: -4px;
+    
 }
 .container {
     padding: 1rem;
@@ -24,11 +33,16 @@ margin-bottom: 1rem;
 #itemForm label{
 display: block;
 margin-bottom: 1rem;
+color:  rgb(70, 38, 252);
+font-size: 20px;
+font-family:'Anek Bangla', sans-serif; 
 }
+
 #itemForm input{
     height: 2rem;
     text-align: center;
     border: 1px solid #efdcdc;
+    font-family:'Anek Bangla', sans-serif; 
   
 }
 #quantityInput, #priceInput{
@@ -36,10 +50,12 @@ margin-bottom: 1rem;
 }
 
 #addItemButton{
-    border:unset;
-    background: #db3b43;
+    background: #c81a2b;
     color: #ffff;
 padding:0.5rem;
+font-size: 16px;
+border-radius: 8px;
+border: 4px solid;
 }
 
 #itemsDiv{
@@ -67,12 +83,13 @@ margin-bottom: 2rem;
     font-size: 0.8rem;
     width: 2.5rem;
     height: 100%;
+    font-family:'Anek Bangla', sans-serif; 
 }
 .deleteButton:active{
     margin-bottom: 3px;
 }
 .purchased{
-    background:rgb(244, 195, 203);
+    background: rgb(146, 168, 209);
 color: #ffff;
 }
 .purchased p {
