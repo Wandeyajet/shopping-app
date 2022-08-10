@@ -13,15 +13,14 @@
         "sizes": "384x384",
         "type": "image/png"
       },
-      
       {
         "src": "assets/icon-512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
     ],
-    "start_url": "/pwa-examples/js13kpwa/index.html",
+    "start_url": "https://my-shoppers-app.netlify.app/index.html",
     "display": "fullscreen",
     "theme_color": "#B12A34",
-    "background_color": "#B12A34"
+    "background_color": "linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%)"
   }
