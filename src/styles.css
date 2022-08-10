@@ -2,11 +2,13 @@
 margin: unset;
 padding:unset;
 }
-body{
-background: linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%); 
+
+body {
+background: linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%), url('https://images.pexels.com/photos/880459/pexels-photo-880459.jpeg');
 background-position: cover;
 font-family:'Anek Bangla', sans-serif; 
 }
+
 nav{
     background: rgb(70, 38, 252);
     height: 3rem;
@@ -17,6 +19,7 @@ margin-bottom: 1rem;
 font-size: 27px;
 font-family:'Alumni Sans Inline One', cursive;
 }
+
 #boy-icon{ 
     margin-top: 3px;
     margin-bottom: -4px;
@@ -25,8 +28,9 @@ font-family:'Alumni Sans Inline One', cursive;
 .container {
     padding: 1rem;
 }
+
 #shopping-img{
-    width: 45%;
+    width: 35%;
     float: right;
     height: 100%;
 }
@@ -94,4 +98,8 @@ color: #ffff;
 }
 .purchased p {
     text-decoration: line-through;
+}
+#totalPriceDiv{
+    color: rgb(232, 13, 13);
+    font-weight: 700;
 }
