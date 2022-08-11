@@ -4,9 +4,11 @@ padding:unset;
 }
 
 body {
-background: linear-gradient(109.6deg, rgb(247, 202, 201) 20.6%, rgb(146, 168, 209) 85.9%), url('https://images.pexels.com/photos/880459/pexels-photo-880459.jpeg');
-background-position: cover;
-font-family:'Anek Bangla', sans-serif; 
+background: linear-gradient(109.6deg, rgba(247, 202, 201, 0.6239) 20.6%, rgba(146, 168, 209, 0.744) 85.9%), 
+url('https://cdn1.vectorstock.com/i/thumb-large/67/70/online-shopping-concept-with-characters-vector-23656770.jpg');
+font-family:'Anek Bangla', sans-serif;
+background-size: cover;
+background-position: center; 
 }
 
 nav{
@@ -30,7 +32,7 @@ font-family:'Alumni Sans Inline One', cursive;
 }
 
 #shopping-img{
-    width: 35%;
+    width: 40%;
     float: right;
     height: 100%;
 }
