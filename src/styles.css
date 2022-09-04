@@ -25,6 +25,7 @@ font-family:'Alumni Sans Inline One', cursive;
 #boy-icon{ 
     margin-top: 3px;
     margin-bottom: -4px;
+ 
     
 }
 .container {
@@ -35,6 +36,7 @@ font-family:'Alumni Sans Inline One', cursive;
     width: 40%;
     float: right;
     height: 100%;
+    filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
 }
 #itemForm label{
 display: block;
